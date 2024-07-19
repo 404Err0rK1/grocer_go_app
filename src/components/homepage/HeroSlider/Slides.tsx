@@ -94,7 +94,7 @@ function Slides({ currentPage, direction, pages, setPage }: Props) {
           <Image
             src={images[currentPage]}
             alt={imagesAlts[currentPage]}
-            className="w-full slides"
+            className="w-full slides aspect-[4/1.38] object-cover"
             width={1920}
             height={663}
             priority
