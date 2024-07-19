@@ -60,7 +60,7 @@ const Suggestions = ({ searchTerm, setSearchTerm, className }: Props) => {
     setSearchTerm("");
 		setMatchedWords([]);
 	}
-
+console.log(searchTerm)
   return (
     <>
       {matchedWords.length > 0 && 
