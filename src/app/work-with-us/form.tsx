@@ -184,7 +184,7 @@ const Form = () => {
           onChange={validateName}
           name="work_name"
           type="text"
-          placeholder="john doe"
+          placeholder="User Name"
 					autoComplete="name"
         />
         <div className="h-4 flex mb-1 mt-0.5 ml-2">
@@ -218,7 +218,7 @@ const Form = () => {
           name="work_email"
           type="email"
 					autoComplete="email"
-          placeholder="youremail@.com"
+          placeholder="youremail@.gmail.com"
         />
         <div className="h-4 flex mb-1 mt-0.5 ml-2">
           <AnimatePresence>

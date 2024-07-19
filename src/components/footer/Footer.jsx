@@ -18,7 +18,7 @@ import GooglePlay from '../../../public/images/footer/google-play.webp';
 import Apple from '../../../public/images/footer/apple.webp';
 
 const Footer = () => {
-	return (
+  return (
     <footer className="w-full text-neutral-400 relative z-40">
       {/* TOP CURVES */}
       <div className="absolute top-[-6.7rem] lg:top-[-4rem] w-full overflow-hidden leading-none rotate-180">
@@ -244,7 +244,7 @@ const Footer = () => {
                 Callcenter
               </h2>
               <div className="flex flex-col gap-1 md:flex-row md:gap-4 flex-wrap">
-                <Link href="tel:5559997777">555 999 7777</Link>
+                <Link href="tel:1234567899">1234567899</Link>
 
                 <Link
                   href="/contact-us"
@@ -321,9 +321,9 @@ const Footer = () => {
                 <div className="border-2 w-full h-full border-white flex flex-col lg:gap-6 items-center justify-between p-6 rounded-lg">
                   <div className="w-24 lg:w-16 lg:h-16 aspect-square bg-green-3 rounded-lg flex flex-col gap-2 lg:gap-1 items-center justify-center p-2">
                     <h3 className="text-center text-xl lg:text-sm leading-4 lg:leading-[12px] font-sansita">
-                      Grocer
+                      ShopGrocer
                       <br />
-                      Go
+                      TP
                     </h3>
                     <Image
                       src={Cart}
@@ -390,7 +390,7 @@ const Footer = () => {
                 href="/credit-card"
                 className="font-bold italic font-sansita w-20 h-7 flex items-center text-green-3 text-xl bg-clip-text"
               >
-                Grocer<span className="text-green-1">Go</span>
+                Grocer<span className="text-green-1">TP</span>
               </Link>
               <Image
                 src="/images/footer/alelo.webp"
@@ -454,24 +454,11 @@ const Footer = () => {
                 width={40}
                 height={40}
               />
-              <Image
-                src="/images/footer/visa.webp"
-                alt="visa"
-                width={40}
-                height={40}
-              />
             </div>
             <div>
-              <p className="text-[.65rem] leading-[.7rem] text-neutral-300">
-                SALE AND CONSUMPTION OF ALCOHOLIC BEVERAGES ARE PROHIBITED TO
-                PEOPLE UNDER THE AGE OF 18 YEARS. ALCOHOLIC BEVERAGE CAN CAUSE
-                CHEMICAL DEPENDENCE AND, IN EXCESS, SERIOUS HEALTH PROBLEMS.
-                DRINK WITH MODERATION. Prices, offers and conditions exclusive
-                to the internet valid only for today, subject to change without
-                prior notification. If any product is missing, it will not be
-                delivered and the corresponding amount will not be charged. Co.
-                Distribution / NUMBER: 4700000/0001-06 / Rd. Ficticious Road,
-                3142, Zip Code: 01002-000 - California - USA
+              <p className="text-[.7rem] leading-[.7rem] text-neutral-300">
+                Copyright &copy; 2023 hotuanphat.dev@gmail.com
+
               </p>
             </div>
           </div>

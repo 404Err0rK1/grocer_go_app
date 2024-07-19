@@ -130,7 +130,7 @@ const Navbar = () => {
             href="/"
             className={`font-bold font-sansita tracking-wide italic flex items-center text-green-5 text-2xl xl:h-full xl:items-end xl:pb-1`}
           >
-            Grocer<span className="text-green-3">Go</span>
+            ShopGrocer<span className="text-green-3">TP</span>
           </Link>
           <SearchBar />
           <Login />

@@ -12,13 +12,13 @@ const Callcenter = () => {
 	return (
     <div className="px-20 pb-16 md:px-10 md:pb-8 w-full max-w-[2560px] mx-auto">
       <h3 className="text-3xl mb-8 font-bold flex flex-wrap font-sansita tracking-wide">
-        JPMorgan&nbsp;<span className="text-green-4">Callcenter</span>
+        TuanPhat&nbsp;<span className="text-green-4">Callcenter</span>
       </h3>
       <div>
         <div className="flex w-full flex-wrap lg:flex-col lg:items-center lg:gap-4">
           <h4 className="font-semibold flex gap-2 items-center mb-4 text-xl w-full lg:whitespace-normal text-neutral-800">
             <GiVibratingSmartphone className="text-orange-500" />
-            JPMorgan Central
+            TuanPhat Central
           </h4>
           {/* FIRST DIV */}
           <div className="w-1/3 lg:w-full">
@@ -29,7 +29,7 @@ const Callcenter = () => {
               href="tel:+0001112222"
               className="text-neutral-800 font-semibold hover:underline underline-offset-2"
             >
-              000 111 2222
+              123 456 7899
             </Link>
           </div>
           {/* SECOND DIV */}
@@ -40,7 +40,7 @@ const Callcenter = () => {
                 href="tel:+2221112222"
                 className="text-neutral-800 font-semibold hover:underline underline-offset-2"
               >
-                222 111 2222
+               Viet Name
               </Link>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Callcenter = () => {
                 Monday to Saturday (excluding national holidays)
               </p>
               <p className="text-neutral-800 font-semibold">
-                6:00 AM to 10:00 PM
+              10:00 AM to 10:00 PM
               </p>
             </div>
           </div>
@@ -66,14 +66,14 @@ const Callcenter = () => {
             <HiOutlineChatAlt2 className="text-orange-500" />
             Text Messages
           </h4>
-          <p className="text-neutral-800 font-semibold">000 222 3333</p>
+          <p className="text-neutral-800 font-semibold">123 456 7899</p>
         </div>
         {/* FIFTH DIV */}
         <div className="w-1/3 lg:w-full flex flex-col items-center lg:items-start">
           <div>
             <h4 className="font-semibold flex gap-2 items-center mb-4 text-xl w-full text-neutral-800">
               <MdTouchApp className="text-orange-500" />
-              JPMorgan App
+              TuanPhat App
             </h4>
             <p className="text-neutral-800 font-[350]">
               Chat and others functionalities
